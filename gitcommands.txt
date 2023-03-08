@@ -35,5 +35,15 @@
 30.git cherry pick: picks some commit not all from a sp branch:
 	(checkout to your branch) git cherry-pick SHA1 SHA2.. ..(adds them as a new commit)
 	(use cherrypick without new commit) git cherry-pick SHA1 SHA2 -n (stages them but no new commit)
+31. git reset SHA: unstages all the files and changes of the commits having sha above the specified one
+
+32: STASHING: suppose u are working on some files and u have them in ur staged area but u dont want to make a commit now and try something else,
+so u can save these unstaged changes on stash and then later recall tehm and work/commit on them from stash
+i. first add them to staging area
+ii. git stash
+iii. work on something new
+iv. use the stash: git stash
+33. git stash clear: remove the stash contents
+ 
 
 	
